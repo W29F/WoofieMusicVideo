@@ -9,4 +9,4 @@ RUN mkdir /app/
 COPY . /app/
 WORKDIR /app/
 RUN python3 -m pip install -U -r requirements.txt
-CMD python3 WoofieMusic
+CMD python3 main.py
